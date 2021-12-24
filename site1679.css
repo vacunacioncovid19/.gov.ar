@@ -1,0 +1,335 @@
+﻿
+
+html {
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    
+    background: #fff;
+}
+
+.top {
+    background-color: #5EAB98;
+}
+
+
+.loading {
+    display: none;
+    background-position: 50% 50%;
+    position: fixed;
+    z-index: 100000;
+    background-image: url('peploading.gif');
+    background-color: #DDF4FF;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-repeat: no-repeat;
+}
+
+.footer {
+    min-height: 90px;
+    border-top: 26px solid #fff;
+    width: 100%;
+    bottom: 0;
+    background-color: #5EAB98;
+}
+
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+div.row {
+    margin-right: 0px;
+}
+
+div.container-fluid {
+    padding-right: 0px;
+}
+
+.LogoMinBack {
+    background-color: #00a2e0 !important;
+    color: #FFFFFF !important;
+}
+
+.one {
+    background-color: #FFFFFF;
+    background-image: -webkit-linear-gradient(150deg, #00a2e0 35%, #FFFFFF 35%);
+    height: 100vh;
+}
+
+.TituloWeb {
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color:#fff;
+}
+
+.usuario {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.TituloFooter {
+    padding:15px;
+    text-align:center;
+    font-size: 0.8em;    
+    color: #ffffff;
+}
+
+.ini0 {
+    height: 64px;
+    background: url('wi-back0.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #5EAB98;
+}
+
+.ini1 {
+    height: 64px;
+    background: url('wi-back1.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #e7e7e7;
+}
+
+.butonPrimary {
+    text-align: center;
+    min-width: 150px;
+    max-width: 200px;
+    min-height: 38px;
+    background-color: #00a2e0;
+    border: 2px solid #00a2e0;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+    .butonPrimary:hover {
+        background-color: #ffffff;
+        color: #00a2e0;
+        cursor: pointer;
+        border: 2px solid #00a2e0;
+    }
+
+.butonDanger {
+    text-align: center;
+    min-width: 150px;
+    min-height: 38px;
+    background-color: #c10303;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #c10303;
+}
+
+    .butonDanger:hover {
+        background-color: #ffffff;
+        color: #c10303;
+        cursor: pointer;
+        border: 2px solid #c10303;
+    }
+
+
+.buttonOrange {
+    text-align: center;
+    min-width: 150px;
+    min-height: 38px;
+    background-color: #f0ad4e;
+    border: 2px solid #f0ad4e;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+    .buttonOrange:hover {
+        background-color: #ffffff;
+        color: #f0ad4e;
+        cursor: pointer;
+        border: 2px solid #f0ad4e;       
+    }
+
+#map {
+    width: 100%;
+    height: 380px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.mansaje_alerta {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #c10303;
+    padding: 5px;
+}
+
+.squarelong {
+    padding: 34px;
+    width: 80%;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    background: #dbe5e9;
+}
+
+.Shadow-2 {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.FormTitle {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+.btn_reg {
+    width: 65%;
+    min-height: 45px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #499dd9;
+    border: 1px solid #338dcf;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+    .btn_reg:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+.btn_tur {
+    width: 65%;
+    min-height: 45px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #2a80b9;
+    border: 1px solid #338dcf;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+    .btn_tur:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+
+.btn_turRojo {
+    width: 65%;
+    min-height: 45px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #c10303;
+    border: 1px solid #a30202;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .btn_turRojo:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+
+.btn_turVerde {
+    width: 65%;
+    min-height: 45px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #2d9a36;
+    border: 1px solid #0b7a14;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .btn_turVerde:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+.btn_turRojo2 {
+    
+    min-height: 45px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #c10303;
+    border: 1px solid #a30202;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .btn_turRojo2:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+.contenOjo {
+    margin: 0px auto;
+    padding: 8px;
+    color: #2a2828;
+    font-size: 1.4em;
+    
+}
+
+.btn_pro {
+    width: 75%;
+    min-height: 45px;
+    padding: 8px;
+    color: #2a80b9;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .btn_pro:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
+.btn_info {
+    width: 65%;
+    min-height: 45px;
+    padding: 8px;
+    color: #c10303;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px #666;
+}
+
+    .btn_info:hover {
+        box-shadow: 1px 1px 6px #666;
+    }
+
